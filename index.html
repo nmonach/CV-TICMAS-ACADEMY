@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>CV Ticmas Academy</title>
+</head>
+<body>
+
+<!-- Header -->
+
+<header class="banner">
+    <div class="container_16">
+      <figure>
+        <img src="./img/photoCV.jpg" alt="Nicolas Monach">
+      </figure>
+      <hgroup>
+        <h1 class="fadeInDown">Nicolas Monach</h1>
+        <h2 class="fadeInUp">Curriculum Vitae</h2>
+        <img id="cv" class="fadeInUp" src="./img/logo.png" alt="cv">
+      </hgroup>
+    </div>
+  </header>
+  
+  <!-- Main section -->
+
+  <section role="main" class="container_16">
+    <div class="grid_16">
+
+      <!-- About me -->
+
+      <div class="grid_8 fadeInLeft">
+          <img class="icon" src="./img/profile.png" alt="sobre mí">
+          <h3><button id="aboutMe" onclick="showAllAboutMe()">Sobre mí</button></h3>
+        <div class="hide" id="allAboutMe">  
+          <p>Soy Nicolas Monach y soy estudiante de programación. Buscando crecer en el rubro.</p>
+          <p>Actualmente estoy cursando Programacion Backend. Me encuentro buscando nuevas oportunidades de aprendizaje y trabajo en el ambito de la programación, si estás interesado en incorporar un colaborador resolutivo, con facilidad de aprendizaje y excelente predisposición para adaptarse a los cambios, contactarse conmigo.</p>
+          <p>¡Un saludo!</p>
+          <button onclick="hideAllAboutMe()">Ver Menos</button>
+        </div>
+      </div>
+
+      <!-- knowledge -->
+
+      <div class="grid_8 knowledge fadeInRight">
+        <img class="icon" src="./img/knowledge.png" alt="Conocimientos">
+        <h3><button id="knowledge" onclick="showAllKnowledge()">Conocimientos</button></h3>
+          <div class="hide" id="allKnowledge">
+            <ul class="values">
+              <li>HTML5<span style="width: 90%;"></span></li>
+              <li>CSS3<span style="width: 75%;"></span></li>
+              <li>Javascript<span style="width: 80%;"></span></li>
+              <li>ReactJS<span style="width: 80%;"></span></li>
+              <li>Framework Bootstrap<span style="width: 60%;"></span></li>
+              <li>Programación Backend<span style="width: 5%;"></span></li>
+            </ul>
+            <button onclick="hideAllKnowledge()">Ver Menos</button>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Experience -->
+
+    <div class="grid_16 experiences appear">
+      <img class="icon" src="./img/formal.png" alt="Experiencias">
+      <h3><button id="experience" onclick="showAllExperience()">Experiencias</button></h3>
+      <div class="hide" id="allExperience">
+        <ul>
+          <li>
+            <h4><strong>Programador web</strong></h4>
+            <span class="site">Freelance</span>
+            <span class="date">2022 - Actualmente</span>
+            <p>Desarrollo de aplicaciones/páginas web/Ecommerce.</p>
+          </li>
+          <li>
+            <h4><strong>Analista de control de calidad</strong></h4>
+            <span class="site">Enel Argentina (Edesur)</span>
+            <span class="date">2023 - Actualmente</span>
+            <p>Analisis e implementacion del sistema MLM para solicitudes de inspección de calidad. Capacitación de proveedores y personal de la empresa</p>
+          </li>
+          <li>
+            <h4><strong>Analista de operaciones</strong></h4>
+            <span class="site">Interborders SRL (Forwarder)</span>
+            <span class="date">2022 - 2023</span>
+            <p>Organizaba operativamente todas las cargas de importación y exportación provenientes de Asia, gestionando la documentación necesaria para que estas lleguen en tiempo y forma. 
+              Encargado de coordinar los trámites pertinentes con las navieras y aerolíneas, a fin de facilitar el traslado de las mercancías. </p>
+          </li>
+          <li>
+            <h4><strong>Coordinador operativo de Comercio Exterior</strong></h4>
+            <span class="site">United Logistic Company (Despachante de Aduana)</span>
+            <span class="date">2019 - 2022</span>
+            <p>Coordinacion con maritimas/terminales/depositos fiscales. Manejo de documentación de importaciones/exportaciones/traslados a zonas francas. Trato directo con clientes y forwarders</p>
+          </li>
+          <li>
+            <h4><strong>Auxiliar de logística</strong></h4>
+            <span class="site">United Logistic Company (Despachante de Aduana)</span>
+            <span class="date">2017 - 2019</span>
+            <p>Inicie implementando el sistema de coordinación logístico (TMS) y el sistema de deposito (WMS), capacitando al personal de la empresa, 
+              luego continue coordinando con deposito, choferes y clientes la entrega de mercaderias, aplicando logistica de distribucion local.</p>
+          </li>
+          <li>
+            <h4><strong>Operador y despachante de mesa de baja tensión y Dibujante de redes electricas</strong></h4>
+            <span class="site">Nizza Davidson Ingenieria y Obras. (Edesur)</span>
+            <span class="date">2014 - 2017</span>
+            <p>Analisis de riesgos en via publica, coordinación con cuadrillas y clientes para atencion directa de reclamos y reestablecimiento de servicio.
+              Dibujante de planos de redes electricas de la compañia y posterior actualizacion en el sistema CERTA GIS para la visualizacion de las areas indicadas de la empresa.
+            </p>
+          </li>
+          <li>
+            <h4><strong>Encargado de deposito de repuestos</strong></h4>
+            <span class="site">Rexam Argentina (Actualmente Ball Company)</span>
+            <span class="date">2013-2014</span>
+            <p>Analisis e implementacion del sistema MLM para solicitudes de inspección de calidad. Capacitación de proveedores y personal de la empresa</p>
+          </li>
+        </ul>
+        <button onclick="hideAllExperience()">Ver Menos</button>
+      </div>  
+    </div>
+  
+    <!-- Formation -->
+
+    <div class="grid_16 training appear">
+      <img class="icon" src="./img/scholarship.png" alt="sobre mí">
+      <h3><button id="formation" onclick="showAllFormation()">Formación</button></h3>
+      <div class="hide" id="allFormation">
+        <div class="formation1">
+          <ul>
+            <li>
+              <h4><strong>Curso de Programacion Backend</strong></h4>
+              <span class="site">Coderhouse</span>
+              <span class="date">2023 (en curso)</span>
+            </li>
+            <li>
+              <h4><strong>Curso de Programación ReactJS</strong></h4>
+              <span class="site">Coderhouse</span>
+              <span class="date">2022</span>
+            </li>
+            <li>
+              <h4><strong>Curso de Programación Javascript</strong></h4>
+              <span class="site">Coderhouse</span>
+              <span class="date">2022</span>
+            </li>
+          </ul>
+        </div>
+        <div class="formation2">
+          <ul>
+            <li>
+              <h4><strong>Primeros Pasos del desarrollo frontend</strong></h4>
+              <span class="site">Ticmas Academy</span>
+              <span class="date">2023</span>
+            </li>
+            <li>
+              <h4><strong>Secundario: Bachiller técnico en bienes y servicios (Orientación Electromecánica)</strong></h4>
+              <span class="site">Instituto Tecnológico San Bonifacio</span>
+              <span class="date">2007-2012</span>
+            </li>
+          </ul>
+          <button onclick="hideAllFormation()">Ver Menos</button>
+        </div>
+      </div>
+    </div> 
+  
+    <!-- Contact -->
+
+    <div class="grid_8 socialmedia fadeInUp">
+      <img class="icon" src="./img/socialMedia.png" alt="sobre mí">
+      <h3><button id="contact" onclick="showAllContact()">Contacto</button></h3>
+      <div class="hide" id="allContact">
+        <a href="mailto:nmonach@gmail.com"><img class="social" src="./img/gmail.png" alt="Email"></a>
+        <a href="https://api.whatsapp.com/send?phone=541135757947&text=%C2%A1Hola!%20Quisiera%20contactárme%20por%20una%20propuesta."><img class="social" src="./img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://www.linkedin.com/in/nicolasmonach/"><img class="social" src="./img/linkedin.png"  alt="LinkedIn"></a>
+        <button onclick="hideAllContact()">Ver Menos</button>
+      </div>
+    </div>
+    
+    <!-- Information -->
+
+    <div class="grid_8 information fadeInUp">
+      <img class="icon" src="./img/mas.png" alt="Otros datos">
+      <h3><button id="info" onclick="showAllInfo()">Mas Información</button></h3>
+      <div class="hide" id="allInfo">
+        <ul class="information">
+          <li>Inglés: Nivel intermedio</li>
+          <li>Facil aprendizaje de nuevas tecnologías</li>
+          <li>Licencia de conducir: Vigente categorias A.1.2 y B.1</li>
+        </ul>
+        <button onclick="hideAllInfo()">Ver Menos</button>
+      </div>
+    </div>
+  </section>
+  <script src="./js/main.js"></script>
+</body>
+</html>

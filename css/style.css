@@ -1,0 +1,331 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  margin: 1fr
+}
+
+.container_16 {
+	max-width: 860px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.grid_8,
+.grid_16 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+  margin-top: 63px;
+}
+
+.container_16 .grid_8 {
+	width: 40.0%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container_16 .grid_16 {
+	width: 98.0%;
+}
+
+/*<-------- Header -------->*/
+
+header {
+  background: #3ec907;
+  border-bottom: 2px solid #848484;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+header figure {
+  float: left;
+}
+
+header figure img {
+  border-radius: 90px;
+  border: 3px solid #000000;
+  height: 175px;
+  width: 175px;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #ffffff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+#cv {
+  width: 45px;
+  height: 45px;
+}
+
+/*<-------- Main section -------->*/
+
+.hide {
+  display: none;
+}
+
+button {
+  border: none;
+  background: none;
+  border-radius: .5rem;
+  margin-left: 60px;
+}
+button:hover{
+  background-color: #848484;
+}
+
+p {
+  font: 400 14px oswald, sans-serif;
+}
+
+section[role=main] {
+  padding: 21px 0;
+  overflow: hidden;
+}
+
+section[role=main] > div {
+  margin-top: 63px;
+}
+
+section[role=main] h3, button{
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 50px;
+}
+
+.experiences ul, .training ul {
+  padding: 0px;
+}
+
+section[role=main] h4 {
+  margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+  color: #147393;
+  font-weight: normal;
+  font: 400 17px oswald, sans-serif;
+}
+
+.experiences li, .training li {
+  margin-bottom: 35px;
+  list-style: none;
+}
+
+/*<-------- Knowledge -------->*/
+
+.knowledge .values {
+  padding: 0px;
+}
+
+.knowledge .values li {
+  margin-bottom: 21px;
+  position: relative;
+  list-style: none;
+  font: 400 14px oswald, sans-serif;
+}
+
+.knowledge .values li:after {
+  background: #e1e1e1;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100%;
+}
+
+.knowledge .values li span {
+  background: #33a4c9;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1;
+}
+
+.grid_8 ul {
+  padding: 15px;
+}
+
+.grid_8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.grid_8 .information li:before, .grid_8 .contact li:before {
+  /* For a round bullet */
+  content: '\2022';
+  /* For a square bullet */
+  /*content:'\25A0';*/
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #33a4c9;
+  font-size: 20px;
+}
+
+.grid_16
+
+.site {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+	
+.date {
+  background-position: 0 -22px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 10px 30px 25px 15px;
+}
+
+.formation1 {
+  float: left;
+}
+
+.formation2 {
+  float: right;
+}
+
+
+/*<-------- Animations -------->*/
+
+.fadeInDown {
+  -webkit-animation: fadeInDown 3s; 
+  animation: fadeInDown 3s;
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 3s; 
+  animation: fadeInUp 3s;
+}
+
+.fadeInUp2 {
+  -webkit-animation: fadeInUp2 3.7s; 
+  animation: fadeInUp2 3.7s;
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft 4s; 
+  animation: fadeInLeft 4s;
+}
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 4s; 
+  animation: fadeInRight 4s;
+}
+
+.appear {
+  -webkit-animation: appear 4s; 
+  animation: appear 4s;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInUp2 {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes appear {
+    0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

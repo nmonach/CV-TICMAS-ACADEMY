@@ -16,7 +16,7 @@ body {
 	display: inline;
 	float: left;
 	position: relative;
-	margin-left: 1%;
+	/* margin-left: 1%; */
 	margin-right: 1%;
   margin-top: 63px;
 }
@@ -24,7 +24,7 @@ body {
 .container_16 .grid_8 {
 	width: 40.0%;
   margin-right: 30px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .container_16 .grid_16 {
